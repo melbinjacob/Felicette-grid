@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: #466368;
+    background: linear-gradient(to right bottom, #648880, #293f50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 375px;
+    background-color: #fff;
+    margin: 1cm 0 1cm 0;
+    border-radius: 25px;
+    padding: 25px 0  ;
+}
+
+.profile{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.box-container{
+    width: 100%;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+}
+
+.box{
+    width: 122px;
+    height: 100%;
+    background-color: bisque;
+}
+
