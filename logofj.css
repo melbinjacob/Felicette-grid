@@ -1,0 +1,18 @@
+.logo{
+    position: absolute;
+    color: #1b1b1b;
+    right: 1cm;
+    font-size: 28px;
+}
+
+@media  screen and (max-width:430px) {
+    .logo{
+        color: #fff;
+    }
+}
+
+@media  screen and (min-width: 768px){
+    .logo{
+        display: none;
+    }
+}

@@ -183,21 +183,13 @@ a{
 }
 
 
-.logo{
-    position: absolute;
-    left: 70%;
-    transition: left var(--animation-timing);
 
-}
 
 
 /* Responsiveness  */
 @media  screen and (min-width: 768px){
 
-    .logo{
-        position: absolute;
-        left: 20%;
-    }
+   
     .inner-container{
         width: 60%;
         display: flex;
@@ -240,9 +232,7 @@ a{
 
     }
 
-    .logo{
-        color: var(--gn);
-    }
+
 
     .hamburger-menu::before,
     .hamburger-menu::after,
