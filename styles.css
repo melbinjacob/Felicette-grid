@@ -39,3 +39,17 @@ body{
     background-color: bisque;
 }
 
+@media screen and (max-width:430px) {
+    body{
+        background: linear-gradient(to right bottom, #ffffff, #ffffff);
+
+    }
+
+    .container{
+        margin: 0;
+    }
+
+    .profile{
+        margin: 0;
+    }
+}
