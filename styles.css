@@ -53,12 +53,15 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 2px;
+    overflow: hidden;
 }
 
 .box{
     width: 122px;
     height: 100%;
     background-color: bisque;
+    object-fit: cover;
+
 }
 
 .foot{

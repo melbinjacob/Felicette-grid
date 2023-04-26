@@ -67,6 +67,11 @@ body{
     border-top: 1px solid black;
 }
 
+.launch-post{
+    display: flex;
+    
+}
+
 @media screen and (max-width:430px) {
     body{
         background: linear-gradient(to right bottom, #ffffff, #ffffff);
